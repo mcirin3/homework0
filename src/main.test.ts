@@ -28,7 +28,7 @@ describe.runIf(process.platform !== "win32")("basic", () => {
     server = await preview({ preview: { port: 3000 } });
     browser = await chromium.launch();
     page = await browser.newPage();
-  });
+  }, 10000);
 
   afterAll(async () => {
     await browser.close();

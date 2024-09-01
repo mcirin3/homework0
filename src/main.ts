@@ -6,6 +6,6 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 <img src="${uicLogo}" class="logo uic" alt="UIC logo" />
 </a>
     <div class="card">
-    welcome to the website of ckanich@uic.edu. 
+    welcome to the website of mcirin3@uic.edu. 
     </div>
 `;
